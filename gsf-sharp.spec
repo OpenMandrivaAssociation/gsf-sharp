@@ -1,13 +1,13 @@
 %define name gsf-sharp
 %define version 0.8.1
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: GSF C# bindings for mono
 Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: %{name}-%{version}.tar.bz2
-License: GPL
+License: LGPLv2+
 Group: Development/Other
 Url: http://www.go-mono.com
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -44,5 +44,4 @@ rm -rf $RPM_BUILD_ROOT
 %_libdir/pkgconfig/%name.pc
 %_libdir/libgsfglue.so
 %_datadir/gapi-2.0/gsf-api.xml
-
 
