@@ -14,6 +14,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: mono-devel
 BuildRequires: libgsf-devel >= 1.11.0
 BuildRequires: gtk-sharp2
+BuildRequires: gtk-sharp2-devel
 BuildRequires: monodoc
 
 %description
