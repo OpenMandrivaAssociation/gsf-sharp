@@ -10,7 +10,6 @@ Source0: %{name}-%{version}.tar.bz2
 License: LGPLv2+
 Group: Development/Other
 Url: http://www.go-mono.com
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: mono-devel
 BuildRequires: libgsf-devel >= 1.11.0
 BuildRequires: gtk-sharp2
