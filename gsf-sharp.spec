@@ -1,6 +1,6 @@
 %define name gsf-sharp
 %define version 0.8.1
-%define release %mkrel 5
+%define release %mkrel 6
 
 Summary: GSF C# bindings for mono
 Name: %{name}
