@@ -29,13 +29,13 @@ files (eg MS OLE and Zip).
 %make
 
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 %makeinstall_std
 perl -pi -e "s^%_libdir^%_prefix/lib^" %buildroot%_libdir/pkgconfig/*.pc
 rm -f %buildroot%_libdir/libgsf*a
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
