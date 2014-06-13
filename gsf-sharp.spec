@@ -1,7 +1,7 @@
 Summary:	GSF C sharp bindings for mono
 Name:		gsf-sharp
 Version:	0.8.1
-Release:	13
+Release:	14
 License:	LGPLv2+
 Group:		Development/Other
 Url:		http://www.go-mono.com
