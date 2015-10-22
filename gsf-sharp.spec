@@ -1,3 +1,5 @@
+%define _disable_lto 1
+
 Summary:	GSF C sharp bindings for mono
 Name:		gsf-sharp
 Version:	0.8.1
