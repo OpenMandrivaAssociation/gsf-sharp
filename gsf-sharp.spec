@@ -6,7 +6,7 @@ Version:	0.8.1
 Release:	20
 License:	LGPLv2+
 Group:		Development/Other
-Url:		http://www.go-mono.com
+Url:		https://www.go-mono.com
 Source0:	%{name}-%{version}.tar.bz2
 
 BuildRequires:	monodoc
